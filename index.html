@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List Practice</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo List</title>
   </head>
   <body>
-    <h1>Muhammad Irfan is trying to make Todo List yahoo!!!</h1>
+    <div class="container">
+      <div><h1 class="main_h">Todo List</h1></div>
+      <div class="m_box">
+        <input
+          type="text"
+          id="get_text"
+          autofocus
+          placeholder="Create new todo"
+        />
+
+        <ul id="todobox"></ul>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
